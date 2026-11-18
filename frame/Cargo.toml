@@ -1,0 +1,13 @@
+[package]
+name = "frame"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "review"
+path = "src/bin/review.rs"
+
+[dependencies]
+channel = { path = "../channel" }
